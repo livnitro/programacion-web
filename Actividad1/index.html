@@ -8,9 +8,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        
         body{
             background-color: rgb(9, 19, 48);
-            margin: 20px;
+            margin: 40px;
         }
 
         ul {
@@ -37,8 +38,12 @@
             font-size: 1.5em;
         }
 
-        a{
+        li{
             font-family: "Kalam";
+            font-size: 1.75em;
+        }
+
+        a{
             color: pink;
         }
 
@@ -50,9 +55,29 @@
             text-align: center;
         }
 
-        .pie {
+        .right {
             float: right;
             margin: 20px;
+        }
+
+        .left {
+            float: left;
+            margin: 20px;
+        }
+
+        .black {
+            background-color: black;
+            border: 10px solid white;
+            padding: 20px;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+        }
+
+        .dialoge img {
+            margin-right: 20px 0 0 20px;
         }
     </style>
 </head>
@@ -77,7 +102,7 @@
 
     <main>
         <section>
-            <img src="https://www.chocolatesandchai.com/wp-content/uploads/2021/03/Celeste-Strawberry-Pie-18.jpg" width="500" class="pie"></img>
+            <img src="https://www.chocolatesandchai.com/wp-content/uploads/2021/03/Celeste-Strawberry-Pie-18.jpg" width="500" class="right"></img>
             <h2>¡Bienvenidos!</h2>
             <p>
                 Este es un sitio dedicado a un juego al que le tengo muchísimo cariño, que me ayudó en momentos muy difíciles y que, 
@@ -92,42 +117,51 @@
             </p>
         </section>
 
+        <br>
+        <br>
+
         <section>
+            <img src="madeline.gif" width="270" class="left"></img>
             <h2>¿Qué es Celeste?</h2>
             <p>
                 Celeste es un videojuego perteneciente al género de plataformas creado por los desarrolladores de videojuegos 
                 canadienses Maddy Thorson y Noel Berry. El videojuego fue creado originalmente como un prototipo en cuatro días 
                 durante un game jam, y más tarde se expandió a un lanzamiento completo. Celeste se lanzó en enero de 2018 para 
-                las plataformas Microsoft Windows, Nintendo Switch, PlayStation 4, Xbox One, macOS y GNU/Linux. 
+                las plataformas Microsoft Windows, Nintendo Switch, PlayStation 4, Xbox One, macOS y GNU/Linux.
+                <br>
+                <a href="https://es.wikipedia.org/wiki/Celeste_(videojuego)"> Sacado de Wikipedia</a>
             </p>
         </section>
+
+        <br>
+        <br>
 
         <section>
             <h2>¿De qué trata?</h2>
-            <p>
+            <img src="determination.gif" width="310" class="left" class="dialoge">
+            <p class="black">
                 El juego sigue a Madeline, una chica con depresión y ansiedad que decide escalar
-                la Montaña Celeste (de ahi el nombre del juego).
+                la Montaña Celeste.
                 <br>
-                En su camino a la cima encontrará una series de retos cada vez más difíciles. Desde enfrentarse a
-                bloques de hielo que caen, vientos despiadados o precipicios sin fin, hasta enfrentarse a sí misma, a su pasado
-                y a sus condiciones.
                 <br>
-                Celeste es un plataformero bastante complicado, lo que complementa a la narrativa que presenta. Cada nivel
-                se va convirtiendo en un obstac
+                En su camino a la cima encontrará diversos retos. Desde enfrentarse a
+                bloques de hielo que caen, vientos despiadados o precipicios sin fin, hasta enfrentarse a sí misma.
+                <br>
+                <br>
+                Celeste es un plataformero bastante complicado, lo que complementa a la narrativa que presenta.
             </p>
         </section>
 
         <section>
-            <h2>Video Destacado</h2>
-            <video controls>
-                <source src="video.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video>
+            <h2>Mis Cosas Favoritas del Juego</h2>
+            <ul>
+                <li>Los gráficos</li>
+            </ul>
         </section>
 
         <section>
             <h2>¡Consigue Celeste ahora mismo!</h2>
-            <iframe src="https://store.steampowered.com/app/504230/Celeste/" width="800" height="600" frameborder="0"></iframe>
+            <iframe src="https://mattmakesgames.itch.io/celeste" width="800" height="600" frameborder="0"></iframe>
         </section>
     </main>
 
