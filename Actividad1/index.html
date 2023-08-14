@@ -51,7 +51,7 @@
             color: rgb(255, 97, 97);
         }
 
-        .title {
+        .center {
             text-align: center;
         }
 
@@ -79,13 +79,28 @@
         .dialoge img {
             margin-right: 20px 0 0 20px;
         }
+
+        .galeria { 
+            display: flex; 
+            height: 20rem; 
+            gap: 1rem; 
+        } 
+ 
+        .galeria > div { 
+            flex: 1; 
+            border-radius: 1rem; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Celeste: Más Que Una Montaña 🍓⛰️</h1>
 
-        <div class="title">
+        <div class="center">
             <img src="title.jpg" width="1000px">
         </div>
 
@@ -121,7 +136,7 @@
         <br>
 
         <section>
-            <img src="madeline.gif" width="270" class="left"></img>
+            <img src="madeline.gif" width="22%" class="left"></img>
             <h2>¿Qué es Celeste?</h2>
             <p>
                 Celeste es un videojuego perteneciente al género de plataformas creado por los desarrolladores de videojuegos 
@@ -138,7 +153,7 @@
 
         <section>
             <h2>¿De qué trata?</h2>
-            <img src="determination.gif" width="310" class="left" class="dialoge">
+            <img src="determination.gif" width="21%" class="left" class="dialoge">
             <p class="black">
                 El juego sigue a Madeline, una chica con depresión y ansiedad que decide escalar
                 la Montaña Celeste.
@@ -151,17 +166,101 @@
                 Celeste es un plataformero bastante complicado, lo que complementa a la narrativa que presenta.
             </p>
         </section>
+        
+        <br>
+        <br>
 
         <section>
             <h2>Mis Cosas Favoritas del Juego</h2>
             <ul>
-                <li>Los gráficos</li>
+                <li>
+                    Los gráficos
+                </li>
+                <div class="galeria">
+                    <div style="background-image: url('1.jpg');"></div>
+                    <div style="background-image: url('2.jpg');"></div>
+                    <div style="background-image: url('3.jpg');"></div>
+                </div>
+                <br>
+                <br>
+                <li>
+                    La música
+                </li>
+                <p>
+                    Compuesta por Lena Raine, es una obra maestra que le va al juego como anillo al dedo.
+                    <br>
+                    <br>
+                    Lena Raine logra capturar la magia de los lugares que Madeline visita en su viaje, así como los sentientos por los que que nuestra protagonista
+                    va pasando a lo largo del camino. Se traduce de una forma exquisita la sencación de aventura, a la vez que de la incertidumbre que nuestro viaje
+                    nos depara.
+                    <br>
+                    <br>
+                    Mezclando sintetizadores con piano, encontramos piezas que van desde lo alegre y motivador hasta lo aterrador y lo misterioso, transcurriendo por un sinfín de paisajes
+                    musicales.
+                    <br><br>
+                    ¿Mi composición favorita? Es díficil de responder, pero <a href="https://www.youtube.com/watch?v=1rwAvUvvQzQ">Resurrections</a> seguramente se encuentra en mi top, así como
+                    <a href="https://www.youtube.com/watch?v=VXIqXaX1blY">Farewell</a>. (Tremenda joya Farewell, solo quiero decir).
+                    <br>
+                    <br>
+                    <div class="center">
+                        <img src="https://cdn.atomix.vg/wp-content/uploads/2018/02/celeste-gif-atomix.gif" class="center" width="75%">
+                    </div>
+                    <br>
+                    <br>
+                    <p>
+                        Para un mejor análisis de la música, recomiendo checar <a href="https://kldv.medium.com/the-hidden-gems-of-celestes-soundtrack-873db3a95792">este sitio.</a>
+                    </p>
+                    <br>
+                    <br>
+                </p>
+                <li>
+                    La Comunidad
+                </li>
+                <p>
+                    Celeste tiene una Comunidad PRECIOSA. Crean mods para expandir el juego, crean música, dibujo, arte...
+                    <br>
+                    <br>
+                </p>
+                    <div class="center">
+                        <img src="mod1.jpg" width="500">
+                        <img src="mod2.jpg" width="500">
+                    </div>
+                <p>
+                    <br>
+                    <br>
+                    Hay una parte que se dedica a intentar pasarse el juego lo más rápido posible, y el record ahorita mismo es de... 
+                    <a href="https://www.speedrun.com/celeste/runs/zqjd738m">¡25 minutos, 24 segundos y 798 milisegundos por secureaccount!</a>
+                    <br>
+                    <br>
+                    Entre el arte que crean, los memes, los retos los grupos que comparten, la comunidad de Celeste es agradable :).
+                    <br>
+                    <br>
+                    <div class="center">
+                        <img src="mod3.jpg" width="500">
+                        <img src="mod4.jpg" width="500">
+                    </div>
+                </p>
             </ul>
         </section>
 
+        <br>
+        <br>
+
         <section>
             <h2>¡Consigue Celeste ahora mismo!</h2>
-            <iframe src="https://store.steampowered.com/app/504230/Celeste/" height="100%" frameborder="0"></iframe>
+            <iframe src="https://store.steampowered.com/app/504230/Celeste/" height="100%" width="100%" frameborder="0"></iframe>
+        </section>
+
+        <section>
+            <h2>¡Gracias por visitar mi sitio!</h2>
+            <div class="center">
+                <img src="https://media.tenor.com/ql5zFjnFEmMAAAAM/celeste-badeline.gif">
+                <img src="https://media.tenor.com/ql5zFjnFEmMAAAAM/celeste-badeline.gif">
+                <img src="https://media.tenor.com/ql5zFjnFEmMAAAAM/celeste-badeline.gif">
+                <img src="https://media.tenor.com/ql5zFjnFEmMAAAAM/celeste-badeline.gif">
+                <img src="https://media.tenor.com/ql5zFjnFEmMAAAAM/celeste-badeline.gif">
+                <img src="https://media.tenor.com/ql5zFjnFEmMAAAAM/celeste-badeline.gif">
+            </div>
         </section>
     </main>
 
